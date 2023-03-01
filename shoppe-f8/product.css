@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: Helvetica Neue,Helvetica,Arial,文泉驛正黑,WenQuanYi Zen Hei,Hiragino Sans GB,儷黑 Pro,LiHei Pro,Heiti TC,微軟正黑體,Microsoft JhengHei UI,Microsoft JhengHei,sans-serif;;
+}
+.container
+{
+    width: 1200px;
+    margin:12vh auto;
+    border: 1px solid #000;
+}
+.container-item
+{ 
+    display: flex;
+}
+.container-img-product
+{
+    width: 40%;
+}
+.container-img-product-img
+{
+    width: 100%;
+}
+.container-information-product
+{
+    margin-left: 40px;
+}
+.container-information-product-like
+{
+    background-color: #ee4d2d;
+    color:#fff;
+    padding:1px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+span.container-information-text-product {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgba(0,0,0,.8);
+}
+.container-information-product-vote-star-sold {
+    display: flex;
+}
+.container-information-product-star {
+    color: #ee4d2d;
+    font-size: 17px;
+    padding-right: 30px;
+}
+    .container-information-product-vote {
+    font-size: 18px;
+    color: rgba(0,0,0,.7);
+    margin-right: 30px;
+}
+    .container-information-product-sold {
+    font-size: 18px;
+    color: rgba(0,0,0,0.7);
+}
+
+.all-item-1 {
+    margin-top: 36px;
+}
+span.price-item-1 {
+    font-size: 19px;
+    margin-right: 10px;
+    color: rgba(0,0,0,.7);
+    text-decoration: line-through;
+}
+span.price-item-2 {
+    font-size: 33px;
+    color: #ee4d2d;
+}
+.sale {
+    height: 55px;
+    display: flex;
+}
+.all-item-2 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.sale-img
+{
+    height: 40px;
+    width: 40px;
+    margin-right: 7px;
+}
+.gicungre
+{
+    color:#ee4d2d;
+    font-size: 15px;
+}
+p.giatot {
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+}
+.ngoi-sao-star
+{
+    color: #ee4d2d;
+    font-size: 15px;
+}
+.item-sale-text
+{
+    color: #757575;
+}
+.item-sale-mua3giam1
+{
+    padding:3px;
+    border: 1px solid #ee4d2d ;
+    border-radius: 2px;
+    color:#757575;
+    cursor: pointer;
+}
+.item-sale
+{
+    margin-bottom: 27px;
+}
+p.item-sale-color-while-text {
+    font-size: 15px;
+}
+.soluong_text-1
+{
+    color:#757575;
+    margin-right: 72px;
+    line-height: 27px;
+}
+.soluong
+{
+    display: flex;
+    margin-bottom: 40px;
+}
+/* gio hang */
+.cart
+{
+    display: flex;
+}
+button.cart_button {
+    cursor: pointer;
+    display: flex;
+    padding:15px 25px;
+    border: 1px solid #ee4d2d;
+    border-radius: 2px;
+    color:#ee4d2d;
+    margin-right: 15px;
+    background-color: rgba(255,87,34,.1);
+}
+button.cart_button:hover
+{
+    background-color: #fff;
+}
+.cart_button-1
+{
+    cursor: pointer;
+    display: flex;
+    padding:15px 25px;
+    border: 1px solid #ee4d2d;
+    border-radius: 2px;
+    color:#fff;
+    margin-right: 15px;
+    background-color: #ee4d2d;
+}
+.cart_button-1:hover
+{
+    background-color: #ec694f;
+}
+.themvaogiohang
+{
+    font-size: 16px;
+}
+.icon-cart
+{
+    margin-right: 8px;
+}
+.muangay
+{
+
+    color: #fff;
+    font-size: 15px;
+}
+/* trang chu */
+.trang-chu
+{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.trang-chu-1
+{
+    background-image: url(./assets/img/meo.jpg);
+    background-size: cover;
+    padding:10px 15px;
+    border-radius: 3px;
+    font-size: 30px;
+    border-top: 2px solid #ec694f;
+    position: relative;
+}
+.trang-chu-1:hover
+{
+    background-image: url(./assets/img/gio\ hang.png);
+}
+
+
+

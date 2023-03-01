@@ -1,0 +1,53 @@
+.item-sale-color
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+.color-text
+{
+    color:#757575;
+    margin-right: 76px;
+}
+.color-textt
+{
+    color:#757575;
+    margin-right: 105px;
+}
+.item-sale-color-1
+{
+    padding:6px 9px;
+    margin:0 2px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.09);
+    outline: none;
+    cursor: pointer;
+}
+.soluong_dau
+{
+    padding:5px 11px;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,.09);
+}
+.soluong_dau-1
+{
+    cursor: pointer;
+    padding:5px 9px;
+    border: 1px solid rgba(0,0,0,.09);
+    margin-right: 20px;
+}
+
+.soluong_dau span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#soluong_so
+{
+    cursor: text;
+    padding:5px 15px;
+    width: 20px;
+    /* border: 1px solid rgba(0,0,0,.09); */
+    border: none;
+    text-align: center;
+}
